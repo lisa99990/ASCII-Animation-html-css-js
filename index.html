@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="animations.js"> </script>
+    <script src="ascii.js"> </script>
+
+
+    <title>ASCIImation</title>
+    <link href="ascii.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>CS472: ASCII Animation Viewer</header>
+    <textarea name="txtArea" cols="80" rows="20" id="txtAreaId"></textarea>
+    <div class="controls">
+        <fieldset>
+            <legend>
+                Play Controls:
+            </legend>
+            <button id="startBtn">
+                Start
+            </button>
+            <button id="stopBtn" disabled>
+                Stop
+            </button>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Animation:
+            </legend>
+            <select name="animationOption" id="animationTextId">
+                <option value="Blank">Blank</option>
+                <option value="Exercise">Exercise</option>
+                <option value="JUGGLER">Juggler</option>
+                <option value="Bike">Bike</option>
+                <option value="Dive">Dive</option>
+                <option value="Custom">Custom</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Size:
+            </legend>
+            <select name="animationSize" id="dropdownId">
+                <option value="7pt">Tiny</option>
+                <option value="10pt">Small</option>
+                <option value="12pt" selected>Medium</option>
+                <option value="16pt">Large</option>
+                <option value="24pt">Extra Large</option>
+                <option value="32pt">XXL</option>
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Speed:
+            </legend>
+            <input type="checkbox" id="turbo" />Turbo
+        </fieldset>
+    </div>
+    <div class="footer">
+        <a href="http://validator.w3.org/check/referer">
+            <img src="images/w3c-html.png" alt="html validator" />
+        </a>
+        <br>
+        <a  href="https://jigsaw.w3.org/css-validator">
+            <img src="images/w3c-css.png" alt="css validator" />
+        </a>
+        <br>
+        <a href="http://mumstudents.org/jshint/check.php">
+            <img src="images/jscheck-small.png" alt="Valid JS" />
+            </a>
+    </div>
+</body>
+
+</html>
