@@ -1,3 +1,4 @@
+import { ANIMATIONS } from './animation.js';
 window.onload = function(){
     "use strict";
     var startBtn = document.getElementById("startBtn");
