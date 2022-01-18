@@ -1,4 +1,3 @@
-import { ANIMATIONS } from './animation.js';
 window.onload = function(){
     "use strict";
     var startBtn = document.getElementById("startBtn");
@@ -17,8 +16,6 @@ window.onload = function(){
     var contentArray;
     var intervalId;
     var speed;
-
-
 
 //increases/decreases speed of animation
 function turboFunc(){
