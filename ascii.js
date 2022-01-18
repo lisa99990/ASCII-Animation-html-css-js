@@ -17,6 +17,8 @@ window.onload = function(){
     var intervalId;
     var speed;
 
+
+
 //increases/decreases speed of animation
 function turboFunc(){
     turboCheck();
